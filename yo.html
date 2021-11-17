@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/cb5777b6d9.js" crossorigin="anonymous"></script>
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Space+Grotesk&family=Teko:wght@600&display=swap" rel="stylesheet">
+    <!-- Fuente del banner -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Teko:wght@600&display=swap" rel="stylesheet">
+    <!-- Imagen de barra -->
+    <link rel="icon" href="imagenes/icon.png">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/yo.css">
+    <!-- Script -->
+    <script defer src="js/yo.js"></script>
+    <title>UNCONNECTED</title>
+</head>
+<body>
+
+    <!-- Registro -->
+    <div class="modal-container">
+        <div class="modal modal-close">
+            <p class="close">x</p>
+            <form class="formulario">
+                <h1 class="titulo formulario">Registre sus Datos</h1>
+                <label for="" class="etiqueta1">Nombres:</label> <br>
+                <input type="text" id="campo-texto1"><br>
+                <label for="" class="etiqueta2">Correo:</label><br>
+                <input type="email" id="campo-texto2"><br>
+                <label for="" class="etiqueta3">Distrito:</label><br>
+                <input type="text" id="campo-texto3"><br>
+                <label for="" class="etiqueta4">Celular:</label><br>
+                <input type="text" id="campo-texto4"><br>
+            </form>
+            <button type="button" onclick="datos()">Registrar</button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="#" class="logo nav-link">UNCONNECTED</a>
+            <button class="nav-toggle"><i class="fas fa-bars"></i></button>
+            <ul class="nav-menu .nav-menu_visible">
+                <li class="nav-menu-item"><a href="index.html" class="nav-menu-link nav-link">Inicio</a></li>
+                <li class="nav-menu-item"><a href="servicios.html" class="nav-menu-link nav-link">Servicios</a></li>
+                <li class="nav-menu-item"><a href="" class="nav-menu-link nav-link" id="abrirM">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Informacion -->
+    <section class="infoyo" id="infoyo">
+        <div class="i">
+            <div class="bloque">
+                <img src="imagenes/logo.png" alt="">
+                <h3>EMPRESA</h3>
+                <p>Unconnected fue creada e ideada como un proyecto a corto plazo. El cual me permitirá ver el nivel en el cual me encuentro
+                como programador web,también como proyecto final de un curso. Nos dedicamos al rubro de Reparación	con el fin de ayudar
+                a todxs a poder seguir utilizando esta herramienta que es tan importante
+                Como sabemos hoy es indispensable para clases o trabajos remotos
+                </p>
+            </div>
+            <div class="bloque">
+                <img src="imagenes/creador.svg" alt="">
+                <h3>SOBRE MÍ</h3>
+                <p>Soy un joven estudiante de 21 años, vivo en Lima
+                Desde muy pequeño me interesé por desarmar objetos y
+                apreciar su contenido o buscar una lógica
+                Al descubrir el curso de reparación y de mantemiento
+                Renació esa curiosidad que tenía marcada de infancia
+                Y aunque en algunos momentos no quise apasionarme
+                pues no era lo que quería estudiar, encontré un motivo para continuar y era los recuerdos</p>
+            </div>
+            <div class="bloque">
+                <img src="imagenes/seoane.png" alt="">
+                <h3>TÍTULO</h3>
+                <p>Mi primer Instituto fue el Manuel Seoane Corrales
+                Estudié la carrera de Computación e Informática
+                Me titulé y me enfoqué en la rama de Diseño 
+                y Programación Web la cual me permitió independizarme 
+                Trabajé en empresas poco conocidas por mis horas
+                de practica exigidas por el instituto.</p>
+            </div>
+        </div> 
+    </section>
+    
+    <!-- Redes -->
+    <div class="iconos">
+        <input type="checkbox" id="boton-mas">
+        <div class="redes">
+            <a href="https://www.facebook.com/joe.crt.240/" class="fa fa-facebook"></a>
+            <a href="https://web.whatsapp.com/" class="fa fa-whatsapp"></a>
+            <a href="https://instagram.com/" class="fa fa-instagram"></a>
+        </div>
+        <div class="boton-mas">
+            <label for="boton-mas" class="fa fa-plus"></label>
+        </div>
+    </div>
+    
+      <!-- Footer -->
+      <section id="footer" class="footer">
+        <div class="seo">
+            <h1>UNCONNECTED</h1>
+            <p>Realizando trabajos desde el año 2022. </p>
+        </div>
+        <div class="tres">
+            <a href="https://www.facebook.com/joe.crt.240/" target="_blank"><p><i class="fab fa-facebook"></i> | facebook.com/joe.crt.240/</p></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><p><i class="fab fa-whatsapp"></i> | 994065349 | <i class="fab fa-telegram"> | 970858941</i></p></a>
+            <a href="https://www.google.com/gmail/" target="_blank"><p><i class="fas fa-at"></i> | jaresne24.0@gmail.com</p></a>
+        </div>
+    </section>
+    <section class=ult>
+        <div class="tot">
+            <div class="copy">
+                <p>All rights Reserved © UNCONNECTED, 2021</p>
+            </div>
+            <div class="legal">
+                <p>Made with heart by JoeSadDesign</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

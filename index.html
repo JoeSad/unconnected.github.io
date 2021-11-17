@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/cb5777b6d9.js" crossorigin="anonymous"></script>
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Space+Grotesk&family=Teko:wght@600&display=swap" rel="stylesheet">
+    <!-- Fuente del banner -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Teko:wght@600&display=swap" rel="stylesheet">
+    <!-- Imagen de barra -->
+    <link rel="icon" href="imagenes/icon.png">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Script -->
+    <script defer src="js/app.js"></script>
+    <title>UNCONNECTED</title>
+</head>
+<body>
+
+    <!-- Registro -->
+    <div class="modal-container">
+        <div class="modal modal-close">
+            <p class="close">x</p>
+            <form class="formulario">
+                <h1 class="titulo formulario">Registre sus Datos</h1>
+                <label for="" class="etiqueta1">Nombres:</label> <br>
+                <input type="text" id="campo-texto1"><br>
+                <label for="" class="etiqueta2">Correo:</label><br>
+                <input type="email" id="campo-texto2"><br>
+                <label for="" class="etiqueta3">Distrito:</label><br>
+                <input type="text" id="campo-texto3"><br>
+                <label for="" class="etiqueta4">Celular:</label><br>
+                <input type="text" id="campo-texto4"><br>
+            </form>
+            <button type="button" class="bn" onclick="datos()">Registrar</button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="#" class="logo nav-link">UNCONNECTED</a>
+            <button class="nav-toggle"><i class="fas fa-bars"></i></button>
+            <ul class="nav-menu .nav-menu_visible">
+                <li class="nav-menu-item"><a href="yo.html" class="nav-menu-link nav-link">Sobre Mí</a></li>
+                <li class="nav-menu-item"><a href="servicios.html" class="nav-menu-link nav-link">Servicios</a></li>
+                <li class="nav-menu-item"><a href="" class="nav-menu-link nav-link" id="abrirM">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section id="banner">
+        <div class="banner-foto">
+            <img src="imagenes/laptop.svg" alt="">
+        </div>
+        <div id="banner-slogan">
+            <p>Reconócemos la importancia de tu aliado,<br>
+            brindamos el servicio perfecto para el</p>
+            <button class="button"><a href="servicios.html">SABER MÁS</a></button>
+        </div>
+    </section>
+    
+    <!-- Información -->
+    <section id="info" class="info">
+        <div id="sobre" class="sobre">
+            <div class="golo">
+                <img src="imagenes/logo.png" alt="">
+                <h3>UNCONNECTED</h3>
+                <p>Mantenimiento y Reparación</p>
+            </div>
+            <div class="yo">
+                <img src="imagenes/creador.svg" alt="">
+                <h3>JACKSON</h3>
+                <p>Especialista en PC's y Laptops</p>
+            </div>
+        </div>
+        <div class="boton">
+        <button class="saber"><a href="yo.html">SABER MÁS</a></button>
+        </div>
+    </section>  
+
+    <!-- Importante -->
+    <section id="importante" class="importante">
+        <h3>Recuerda:</h3>
+        <div class="contenido">
+            <div class="indi">
+                <p>El mantenimiento es cada 6 meses</p>
+                <img src="imagenes/mes.svg" alt="">
+            </div>
+            <div class="indi">
+                <img src="imagenes/limpieza.svg" alt="">
+                <p>Evitar el polvo</p>
+            </div>
+            <div class="indi">
+                <p>Usar un anti-virus vigente y legal</p>
+                <img src="imagenes/virus.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Ofrecemos -->
+    <section id="ofrecemos" class="ofrecemos">
+        <div class="ti">
+            <h3>Brindamos:</h3>
+        </div>
+        <div class="content">
+            <div class="icono">
+                <i class="fas fa-shield-alt"></i>
+                <h4>Garantía</h4>
+            </div>
+            <div class="icono">
+                <i class="fas fa-star-half-alt"></i>
+                <h4>Calidad</h4>
+            </div>
+            <div class="icono">
+                <i class="fas fa-running"></i>
+                <h4>Rápidez</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Redes -->
+    <div class="iconos">
+        <input type="checkbox" id="boton-mas">
+        <div class="redes">
+            <a href="https://www.facebook.com/joe.crt.240/" class="fa fa-facebook"></a>
+            <a href="https://web.whatsapp.com/" class="fa fa-whatsapp"></a>
+            <a href="https://instagram.com/" class="fa fa-instagram"></a>
+        </div>
+        <div class="boton-mas">
+            <label for="boton-mas" class="fa fa-plus"></label>
+        </div>
+    </div>
+
+     <!-- Footer -->
+     <section id="footer" class="footer">
+        <div class="seo">
+            <h1>UNCONNECTED</h1>
+            <p>Realizando trabajos desde el año 2022. </p>
+        </div>
+        <div class="tres">
+            <a href="https://www.facebook.com/joe.crt.240/" target="_blank"><p><i class="fab fa-facebook"></i> | facebook.com/joe.crt.240/</p></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><p><i class="fab fa-whatsapp"></i> | 994065349 | <i class="fab fa-telegram"> | 970858941</i></p></a>
+            <a href="https://www.google.com/gmail/" target="_blank"><p><i class="fas fa-at"></i> | jaresne24.0@gmail.com</p></a>
+        </div>
+    </section>
+    <section class=ult>
+        <div class="tot">
+            <div class="copy">
+                <p>All rights Reserved © UNCONNECTED, 2021</p>
+            </div>
+            <div class="legal">
+                <p>Made with heart by JoeSadDesign</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

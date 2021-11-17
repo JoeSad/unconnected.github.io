@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/cb5777b6d9.js" crossorigin="anonymous"></script>
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Space+Grotesk&family=Teko:wght@600&display=swap" rel="stylesheet">
+    <!-- Fuente del banner -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Teko:wght@600&display=swap" rel="stylesheet">
+    <!-- Imagen de barra -->
+    <link rel="icon" href="imagenes/icon.png">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/servicios.css">
+    <!-- Script -->
+    <script defer src="js/servicios.js"></script>
+    <title>UNCONNECTED</title>
+</head>
+<body>
+
+    <!-- Registro -->
+    <div class="modal-container">
+        <div class="modal modal-close">
+            <p class="close">x</p>
+            <form class="formulario">
+                <h1 class="titulo formulario">Registre sus Datos</h1>
+                <label for="" class="etiqueta1">Nombres:</label> <br>
+                <input type="text" id="campo-texto1"><br>
+                <label for="" class="etiqueta2">Correo:</label><br>
+                <input type="email" id="campo-texto2"><br>
+                <label for="" class="etiqueta3">Distrito:</label><br>
+                <input type="text" id="campo-texto3"><br>
+                <label for="" class="etiqueta4">Celular:</label><br>
+                <input type="text" id="campo-texto4"><br>
+            </form>
+            <button type="button" onclick="datos()">Registrar</button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="#" class="logo nav-link">UNCONNECTED</a>
+            <button class="nav-toggle"><i class="fas fa-bars"></i></button>
+            <ul class="nav-menu .nav-menu_visible">
+                <li class="nav-menu-item"><a href="index.html" class="nav-menu-link nav-link">Inicio</a></li>
+                <li class="nav-menu-item"><a href="yo.html" class="nav-menu-link nav-link">Sobre Mí</a></li>
+                <li class="nav-menu-item"><a href="" class="nav-menu-link nav-link" id="abrirM">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Mantenimiento -->
+    <section class="manten" id="manten">
+        <div class="contenidot">
+            <div class=slide>
+                <ul class="ga">
+                    <li class="gaa"><img src="imagenes/c1.jpg" class="foto"></li>
+                    <li class="gaa"><img src="imagenes/c2.jpg" class="foto"></li>
+                    <li class="gaa"><img src="imagenes/c3.jpg" class="foto"></li>
+                    <li class="gaa"><img src="imagenes/c4.jpg" class="foto"></li>
+                </ul>
+            </div>
+            <div class="content">
+                <ul class="content-list">
+                    <li>Revisión del software instalado.</li>
+                    <li>Desfragmentación de disco duro.</li>
+                    <li>La eliminación de archivos temporales.</li>
+                    <li>Liberación de espacio en el disco duro.</li>
+                    <li>Liberación de memoria RAM.</li>
+                    <li>Revisar el correcto funcionamiento del antivirus.</li>
+                    <li>Copias de seguridad.</li>
+                    <li>Respaldos de los datos almacenados.</li>
+                    <li>Actualizaciones de seguridad de nuestro sistema operativo.</li>
+                    <li>Aplicaciones actualizadas.</li>
+                    <li>No software's inestables o de dudosa procedencia.</li>
+                </ul>
+            </div>
+        </div>
+        <button class="btn"><a href="https://web.whatsapp.com/" id="abrirM">PONTE EN CONTACTO</a></button>
+    </section>
+
+    <!-- Reparación -->
+    <section class="manten" id="manten">
+        <div class="contenidot">
+            <div class=slide>
+                <ul class="ga">
+                    <li class="gaa"><img src="imagenes/c1.jpg" class="foto"></li>
+                    <li class="gaa"><img src="imagenes/c2.jpg" class="foto"></li>
+                    <li class="gaa"><img src="imagenes/c3.jpg" class="foto"></li>
+                    <li class="gaa"><img src="imagenes/c4.jpg" class="foto"></li>
+                </ul>
+            </div>
+            <div class="content">
+                <ul class="content-list">
+                    <li>La computadora esta muy lenta.</li>
+                    <li>La computadora esta con virus.</li>
+                    <li>La computadora no se conecta a Internet.</li>
+                    <li>Muestra constantemente una pantalla azul.</li>
+                    <li>Se apaga o se reinicia sin motivo aparente.</li>
+                    <li>Ruidos fuera de lo normal.</li>
+                    <li>Esta en otro idioma y desea cambiarlo.</li>
+                    <li>No visualiza el contenido de sus memorias USB en su pc</li>
+                </ul>
+            </div>
+        </div>
+        <button class="btn"><a href="https://web.whatsapp.com/" id="abrirM">PONTE EN CONTACTO</a></button>
+    </section>
+
+    <!-- Redes -->
+    <div class="iconos">
+        <input type="checkbox" id="boton-mas">
+        <div class="redes">
+            <a href="https://www.facebook.com/joe.crt.240/" class="fa fa-facebook"></a>
+            <a href="https://web.whatsapp.com/" class="fa fa-whatsapp"></a>
+            <a href="https://instagram.com/" class="fa fa-instagram"></a>
+        </div>
+        <div class="boton-mas">
+            <label for="boton-mas" class="fa fa-plus"></label>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <section id="footer" class="footer">
+        <div class="seo">
+            <h1>UNCONNECTED</h1>
+            <p>Realizando trabajos desde el año 2022. </p>
+        </div>
+        <div class="tres">
+            <a href="https://www.facebook.com/joe.crt.240/" target="_blank"><p><i class="fab fa-facebook"></i> | facebook.com/joe.crt.240/</p></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><p><i class="fab fa-whatsapp"></i> | 994065349 | <i class="fab fa-telegram"> | 970858941</i></p></a>
+            <a href="https://www.google.com/gmail/" target="_blank"><p><i class="fas fa-at"></i> | jaresne24.0@gmail.com</p></a>
+        </div>
+    </section>
+    <section class=ult>
+        <div class="tot">
+            <div class="copy">
+                <p>All rights Reserved © UNCONNECTED, 2021</p>
+            </div>
+            <div class="legal">
+                <p>Made with heart by JoeSadDesign</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
